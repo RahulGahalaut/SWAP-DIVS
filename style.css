@@ -1,0 +1,58 @@
+body{
+    height:100vh;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+  }
+
+  table tr td div{
+    padding:20px;
+  }
+  #undoButton{
+    margin: 10px;
+    padding:5px 10px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 3px;
+  }
+  #undoButton:hover{
+    background-color: rgb(50,50,50);
+  }
+
+  #div1{
+    background-color:rgb(100,150,200)
+  }
+
+  #div2{
+    background-color:rgb(100,200,150)
+  }
+
+  #div3{
+    background-color:rgb(150,100,200)
+  }
+
+  #div4{
+    background-color:rgb(150,200,150)
+  }
+
+  #div5{
+    background-color:rgb(200,100,150)
+  }
+  
+  #div6{
+    background-color:rgb(200,150,100)
+  }
+  
+  #div7{
+    background-color:rgb(100,200,250)
+  }
+  
+  #div8{
+    background-color:rgb(100,250,200)
+  }
+  
+  #div9{
+    background-color:rgb(200,100,250)
+  }
