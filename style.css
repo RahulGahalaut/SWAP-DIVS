@@ -8,6 +8,12 @@ body{
 
   table tr td div{
     padding:20px;
+    animation: replace;
+    animation-duration: 0.8s;
+  }
+  @keyframes replace {
+    from {transform: scale(0.5);}
+    to { transform: scale(1);}
   }
   #undoButton{
     margin: 10px;
